@@ -5,10 +5,10 @@ function App() {
   return (
     <div>
       <h2 className='intro-sentence'>Hi! I'm <u className='my-name'>Abraham Hall</u></h2>
-      <div className='link-box'>
+      <span className='link-box bubble'>
         <div className='git-link'><a>Git</a></div>
         <div className='linkedIn-link'><a>LinkedIn</a></div>
-      </div>
+      </span>
       <h3 className='job-title'>A front end developer-designer</h3>
       <p className='under-contruction'>Please pardon the construction while my magical fairies (fingers) are making my new site pretty for you.</p>
       <div className='fairy-dust'></div>
