@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h2 className='intro-sentence'>Hi! I'm <u className='my-name'>Abraham Hall</u></h2>
+      <div className='link-box'>
+        <div className='git-link'><a>Git</a></div>
+        <div className='linkedIn-link'><a>LinkedIn</a></div>
+      </div>
+      <h3 className='job-title'>A front end developer-designer</h3>
+      <p className='under-contruction'>Please pardon the construction while my magical fairies (fingers) are making my new site pretty for you.</p>
+      <div className='fairy-dust'></div>
+
+
+      <h4 className='project-title'>Projects</h4>
+      <div><a>Project 1</a></div>
+      <div><a>Project 2</a></div>
+      <div><a>Project 3</a></div>
+      
+      
+       
+      
+
+      { /*<img />
+      <div className='astro-glyphs'></div>
+      <div className='intro-title'></div>
+      <div></div>  */}    
     </div>
   );
 }
 
 export default App;
+
