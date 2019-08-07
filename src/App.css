@@ -3,6 +3,7 @@
 }
 span {
   float: right;
+  margin-left: -50px;
 }
 .bubble 
 {

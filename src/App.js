@@ -1,16 +1,13 @@
 import React from 'react';
 import './App.css';
-import PDF from './components/resume/AbrahamHall_DEVresumeL.pdf'
+import PDF from './components/Resume/AbrahamHall_DEVresumeL.pdf'
+import { IntroName } from './components/IntroName/IntroName'
 
 function App() {
   return (
-    <div className='my-app'>
+    <div className='my-interim-portfolio'>
       <div className='intro-name'>
-        <h2 className='intro-sentence'>Hi! I'm <u className='my-name'>Abraham Hall</u></h2>
-        <span className='link-box bubble' hidden>
-          <div className='git-link'><a href='https://github.com/abrahamhall84' target='_blank'>Git</a></div>
-          <div className='linkedIn-link'><a href='https://www.linkedin.com/in/abrahamhall84/' target='_blank'>LinkedIn</a></div>
-        </span>
+        <IntroName />
       </div>
 
       <h3 className='job-title'>A front end developer-designer</h3>
@@ -25,6 +22,7 @@ function App() {
       </div>
       
       <h4><a href={PDF} target='_blank'>CV/ Resume</a></h4>
+      
       
 
       { /*<img />
