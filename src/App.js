@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import PDF from './components/Resume/AbrahamHall_DEVresumeL.pdf'
-import { IntroName } from './components/IntroName/IntroName'
+import { PopoverName } from './components/PopoverName/PopoverName'
 
 function App() {
   return (
     <div className='my-interim-portfolio'>
       <div className='intro-name'>
-        <IntroName />
+        <PopoverName />
       </div>
 
       <h3 className='job-title'>A front end developer-designer</h3>

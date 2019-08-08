@@ -1,10 +1,13 @@
 *, .App {
   text-align: center;
 }
-span {
-  float: right;
-  margin-left: -50px;
-}
+
+
+
+
+
+/*
+// making popover from css found Popover.js
 .bubble 
 {
 position: relative;
@@ -47,3 +50,4 @@ margin-top: -12px;
 left: -19px;
 top: 64%;
 }
+*/
