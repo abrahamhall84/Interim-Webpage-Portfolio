@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import PDF from './components/Resume/AbrahamHall_DEVresumeL.pdf'
 import { IntroTitle } from './components/IntroTitle/IntroTitle'
-import { ParticlesArea } from './components/Particles/Particles'
 import { Projects } from './components/Projects/Projects'
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
       
       <Projects />
       
-      <h4><a href={PDF} target='_blank'>CV/ Resume</a></h4>
+      <h4><a href={PDF} target='_blank' rel='noopener noreferrer'>CV/ Resume</a></h4>
       <div className='about-me'>
         <p>Currently looking for positions as frontend/ fullstack web developer &amp; designer. Hire me. You'll love me to work for you.</p>  
       </div>         
